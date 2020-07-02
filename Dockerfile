@@ -1,4 +1,5 @@
-FROM alpine:3.7
+#FROM alpine:3.7
+FROM alpine:latest
 MAINTAINER orozcohsu "orozcohsu@hotmail.com"
 
 RUN apk update && \
